@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculaterapp</title>
+</head>
+<body>
+    <h1 class="mainHeading"></h1>
+    <fieldset>
+        <legend>
+            <input type="number" id="num1">
+            <input type="number" id="num2">
+            <br><br>
+            <button onclick= "multiplication()">onclick</button>
+            <h2 id="Heading"></h2>
+        </legend>
+    </fieldset>
+   <script>
+    function multiplication(){
+        let a=parseInt(document.getElementById("num1").value);
+        console.log(a);
+        let b=parseInt(document.getElementById("num2").value);
+        console.log(b);
+        console.log(a*b);
+        document.getElementById("Heading").innerHTML=a*b;
+    }
+    
+   </script>
+</body>
+</html>

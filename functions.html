@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>functions</title>
+    </head>
+    <body>
+        <fieldset>
+            <legend>calculater</legend>
+            <input type="number" id="num1">
+            <br><br>
+            <button onclick="sqare()">
+                SQARE
+            </button>
+            <button onclick="cube()">
+                CUBE
+            </button>
+            <br><br>
+            <h2 id="res"></h2>
+        </fieldset>
+        <script>
+            function sqare(){
+                let x=parseInt(document.getElementById("num1").value);
+            document.getElementById("res").innerHTML= x*x;   
+            }
+            function cube(){
+                let x=parseInt(document.getElementById("num1").value);
+                document.getElementById("res").innerHTML=x*x*x;
+            }
+        </script>
+    </body>
+</html>

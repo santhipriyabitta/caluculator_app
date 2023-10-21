@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>function</title>
+    </head>
+    <body>
+        <input type="text" id="box1"> <br><br>
+        <input type="text" id="box2"><br><br>
+        <button onclick="func_one()">
+            clickme
+        </button>
+        <script>
+            function func_one(){
+                let x=document.getElementById("box1").value;
+                document.getElementById("box2").value="welcome...."+x;
+            }
+        </script>
+    </body>
+</html>

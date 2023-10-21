@@ -1,0 +1,19 @@
+table{
+    width: 100%;
+    text-align:center;
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+ th{border: 1px solid gray;
+}
+tr:nth-child(even){
+    background-color: gray;
+    color: white;
+}
+tr:nth-child(odd){
+    background-color: olive;
+    color: white;
+}
+tr:hover{
+    background-color: pink;
+}
